@@ -24,6 +24,20 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
+  <!-- Added animation for hovering over images -->
+  <style type = "text/css">
+  .cardpictures img {
+        -webkit-transform: scale(1);
+        -webkit-transition-timing-function: ease-out;
+        -webkit-transition-duration: 500ms;
+        }
+
+  .cardpictures img:hover{
+        -webkit-transform: scale(.5);
+        -webkit-transition-timing-function: ease-out;
+        -webkit-transition-duration: 500ms;
+        }
+  </style>
 </head>
 
 <body>
@@ -152,46 +166,61 @@
 
       <div class="row text-center text-lg-left">
 
+
         <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="" class="d-block mb-4 h-100">
-            <img style = "border-radius: 10%" class="img-fluid img-thumbnail" src="img/ihi.jpg" alt="">
-          </a>
+          <div class = "cardpictures">
+            <a href="" class="d-block mb-4 h-100">
+              <img style = "border-radius: 10%" class="img-fluid img-thumbnail" src="img/ihi.jpg" alt="">
+            </a>
+          </div>
         </div>
 
         <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="http://www.tetraryerson.ca" class="d-block mb-4 h-100">
+          <div class = "cardpictures">
+            <a href="http://www.tetraryerson.ca" class="d-block mb-4 h-100">
             <img style = "border-radius: 10%" class="img-fluid img-thumbnail" src="img/tetra.jpg" alt="">
-          </a>
+            </a>
+          </div>
         </div>
 
         <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="http://www.stmichaelshospital.com/" class="d-block mb-4 h-100">
-            <img style = "border-radius: 10%" class="img-fluid img-thumbnail" src="img/srsa.jpg" alt="">
-          </a>
+          <div class = "cardpictures">
+            <a href="http://www.stmichaelshospital.com/" class="d-block mb-4 h-100">
+              <img style = "border-radius: 10%" class="img-fluid img-thumbnail" src="img/srsa.jpg" alt="">
+            </a>
+          </div>
         </div>
 
         <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img style = "border-radius: 10%" class="img-fluid img-thumbnail" src="img/rbc.png" alt="">
-          </a>
+          <div class = "cardpictures">
+            <a href="#" class="d-block mb-4 h-100">
+              <img style = "border-radius: 10%" class="img-fluid img-thumbnail" src="img/rbc.png" alt="">
+            </a>
+          </div>
         </div>
 
         <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="http://ieeeryerson.com/" class="d-block mb-4 h-100">
-            <img style = "border-radius: 10%" class="img-fluid img-thumbnail" src="img/ieee.png" alt="">
-          </a>
+          <div class = "cardpictures">
+            <a href="http://ieeeryerson.com/" class="d-block mb-4 h-100">
+              <img style = "border-radius: 10%" class="img-fluid img-thumbnail" src="img/ieee.png" alt="">
+            </a>
+          </div>
         </div>
 
         <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img style = "border-radius: 10%; height:125px;" class="img-fluid img-thumbnail" src="img/becu.png" alt="">
-          </a>
+          <div class = "cardpictures">
+            <a href="#" class="d-block mb-4 h-100">
+              <img style = "border-radius: 10%; height:125px;" class="img-fluid img-thumbnail" src="img/becu.png" alt="">
+            </a>
+          </div>
         </div>
 
         <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="https://www.ee.ryerson.ca/~bmes/" class="d-block mb-4 h-100">
-            <img style = "border-radius: 10%; height:125px;" class="img-fluid img-thumbnail" src="img/bmes.jpg" alt="">
-          </a>
+          <div class = "cardpictures">
+            <a href="https://www.ee.ryerson.ca/~bmes/" class="d-block mb-4 h-100">
+              <img style = "border-radius: 10%; height:125px;" class="img-fluid img-thumbnail" src="img/bmes.jpg" alt="">
+            </a>
+          </div>
         </div>
 
       </div>
@@ -315,6 +344,8 @@
             <!-- temporary padding - replace w/ CSS later-->
             <br><br><br>
               <h3><span class="fa fa-envelope" style="color:#E79855;"></span>  frontier.of.healthcare@gmail.com</h3>
+              <h3><span class="fa fa-instagram" style="color:#E79855;"></span>  @frontier.of.healthcare</h3>
+              <h3><span class="fa fa-facebook" style="color:#E79855;"></span>    The Frontier of HealthCare Conference</h3>
             <!-- temporary padding - replace w/ CSS later-->
               <br><br><br>
             </div>
