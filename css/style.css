@@ -35,17 +35,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
-.cardpictures img {
-      -webkit-transform: scale(1);
-      -webkit-transition-timing-function: ease-out;
-      -webkit-transition-duration: 500ms;
-      }
 
-.cardpictures img:hover{
-      -webkit-transform: scale(.5);
-      -webkit-transition-timing-function: ease-out;
-      -webkit-transition-duration: 500ms;
-      }
 
 /* Prelaoder */
 #preloader {
